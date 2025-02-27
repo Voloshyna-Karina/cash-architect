@@ -2,8 +2,25 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+
 :root {
   font-weight: 600;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
